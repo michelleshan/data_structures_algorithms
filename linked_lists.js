@@ -65,10 +65,11 @@ class LinkedList {
     }
 }
 
-const linkedList = new LinkedList()
-linkedList.append(1)
-linkedList.append(99)
-linkedList.prepend(420)
-console.log(linkedList.toString())
-console.log(linkedList.last())
+// const linkedList = new LinkedList()
+// linkedList.append(1)
+// linkedList.append(99)
+// linkedList.prepend(420)
+// console.log(linkedList.toString())
+// console.log(linkedList.last())
 
+export {LinkedList, Node}
